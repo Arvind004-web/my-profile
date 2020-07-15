@@ -1,0 +1,314 @@
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dynamic Data Sharing using Crypto Analysis</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/animate/animate.css" />
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<style>
+.content {
+  max-width: 500px;
+  margin: 5px;
+  padding:16px;
+  align-content:center;
+  position:10px;
+}
+body
+{
+	margin:0;
+	width:110%;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size:10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  font-size:14px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+header{
+	margin:0;
+	width:110%;
+}
+
+</style>
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class='preloader'>
+        <div class='loaded'>
+            &nbsp;</div>
+    </div>
+    <header id="home" class="navbar-fixed-top">
+            <div class="header_top_menu clearfix">	
+                <div class="container">
+                    <div class="row">	
+                        <div class="col-md-5 col-md-offset-3 col-sm-12 text-right">
+                            <div class="call_us_text">
+								<a style="color:black" href=""><i class="fa fa-clock-o"></i> BANGALORE</a>
+								<a style="color:black" href=""><i class="fa fa-phone"></i>8073124185</a>
+							</div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <div class="head_top_social text-right">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                                <a href=""><i class="fa fa-pinterest-p"></i></a>
+                                <a href=""><i class="fa fa-youtube"></i></a>
+                                <a href=""><i class="fa fa-phone"></i></a>
+                                <a href=""><i class="fa fa-camera"></i></a>
+                            </div>	
+                        </div>
+
+                    </div>			
+                </div>
+            </div>
+
+            <!-- End navbar-collapse-->
+
+            <div class="main_menu_bg">
+                <div class="container"> 
+                    <div class="row">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs -example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand our_logo" href="#"><img src="assets/images/logo.png" alt="" style="height:150px;width:150px;" /></a>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#slider">Home</a></li>
+                                        <li><a href="#abouts">About Us</a></li>
+                                        <li><a href="#mobaileapps">Mobile</a></li>
+                                        <li><div class="dropdown">
+                                           <button class="dropbtn">LOGIN</button>
+                                           <div class="dropdown-content">
+                                                <a href="adminlogin.php">ADMIN</a>
+                                               <a href="login.php">USER</a>
+											   <a class="dropbtn">CLOUD</a>
+											   <div class="dropdown-content">
+											   <a href="cloud.php">Cloud Admin</a>
+											   <a href="cloud1.php">Cloud User</a>
+											   <span id="down">&#8595;</span>
+										</div>
+                                            </div>
+                                        </div> </li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div>
+            </div>	
+        </header>
+    <!-- End Header Section -->
+    <section id="slider" class="slider">
+            <div class="slider_overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_slider text-center">
+                            <div class="col-md-12">
+                                <div class="main_slider_content wow zoomIn" data-wow-duration="1s">
+                                    <h4>Dynamic Data Sharing using Crypto Analysis</h4>
+                                    <p style="color:white">Consumers are increasingly demanding companies become more thoughtful with their privacy and data. The fact that companies like Facebook have failed to put proper safeguards on “who sees what when” has created an increase in consumer data protection laws driven by the very subjects of that data – people. </p>
+                                   
+                                </div>
+                            </div>	
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section id="abouts" class="abouts">
+            <div class="container">
+                <div class="row">
+                    <div class="abouts_content">
+                        <div class="col-md-6">
+                            <div class="single_abouts_text text-center wow slideInLeft" data-wow-duration="1s">
+                                <img src="assets/images/ab.png" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="single_abouts_text wow slideInRight" data-wow-duration="1s">
+                                <h4>About us</h4>
+                                <h3>We are Dedicated To Preserve Dynamic Data</h3>
+                                <p style="color:black">The secured infrastructure will provide comprehensive multi-level protection for the PHI and its workflows through user authentication, fine-tuned data access control, confidentiality, integrity, and traceability. The project will implement advanced security techniques, such as role-wise passwordless authentication and authorization, cryptography-based hierarchical access control, dual-level key management, and secure digital provenance or blockchain-based integrity protection. By employing these, JetStream VMs will be able to guarantee the security, privacy, and integrity of scientific workflows and associated data, thus protecting data and computing resources from internal and external attacks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    <section id="mobaileapps" class="mobailapps">
+            <div class="slider_overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_mobail_apps_content wow zoomIn">
+                            <div class="col-md-5 col-sm-12 text-center">
+                                <img src="assets/images/iphone.png" alt="" />
+                            </div>
+                            <div class="col-md-7 col-sm-12">
+                                <div class="single_monail_apps_text">
+                                    <h4> Happy to Announce </h4>
+                                    <h1>Mobile Website <span>is Available in every OS & Screen platform.</span></h1>
+
+                                    <a href=""><img src="assets/images/google.png" alt="" /></a>
+                                    <a href=""><img src="assets/images/apps.png" alt="" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section id="footer_widget" class="footer_widget">
+	<div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_widget_content text-center">
+                        <div class="col-md-4">
+						
+                            <div class="single_widget wow fadeIn" data-wow-duration="2s" style="width:100%;">
+							
+                                <h3>Take it easy with location</h3>
+
+                                <div class="single_widget_info">
+                                    <p><h1>TechCiti Technologies Private Limited</h1>
+
+
+                                        <span>BNR Complex JP Nagar,Bengaluru, Karnataka 560078,</span>
+                                        <span>India</span>
+                                        <span class="phone_email">phone: 080 68411700</span>
+                                        <span>Email: support@techciti.in</span></p>
+                                </div>
+
+                                <div class="footer_socail_icon">
+                                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <a href=""><i class="fa fa-pinterest-p"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                                    <a href=""><i class="fa fa-phone"></i></a>
+                                    <a href=""><i class="fa fa-camera"></i></a>
+                                </div>
+								
+                            </div>
+							
+                        </div>
+
+                        </div>
+                    
+			<div class="col-md-4">
+			
+                            <div class="single_widget wow fadeIn" data-wow-duration="5s">
+                                <h3>Google maps helps you!</h3>
+
+                                <div class="single_widget_form text-left">
+                                    <form action="#" id="formid">
+                                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.2406398708176!2d77.5789981141344!3d12.892242120104537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1547b5f1fc6d%3A0x75fbdc2a6b92b04a!2sTechCiti%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1588056139596!5m2!1sen!2sin" width="400" height="500" style="border:0" allowfullscreen></iframe>
+                                    </form>	
+                                </div>
+                            </div>
+                        </div>
+			</div>
+                </div>
+            </div>
+			</div>
+        </section>
+    <!--Footer-->
+    <footer id="footer" class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="copyright wow zoomIn" data-wow-duration="3s">
+							
+                            <p> made with <i class="fa fa-heart"></i> by <a href="http://techciti.in/"> Arvind A </a>2020. All Rights Reserved </p>
+
+						</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-easing/jquery.easing.1.3.js"></script>
+    <script src="assets/js/wow/wow.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+    
+</body>
+</html>
